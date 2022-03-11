@@ -17,14 +17,14 @@ public class NumberCalculationTest {
 	public void testCase2() {
 		assertEquals(nc.convertCase("hEllo"), "HeLLO");
 	}
-	/*
+	
 	@Test
 	public void testCase3() {
-		
+		assertEquals(nc.convertCase("lowercasewithsymbols %^"), "LOWERCASEWITHSYMBOLS %^");
 	}
 	@Test
 	public void testCase4() {
-		
+		assertEquals(nc.add(-5, -5), -10);
 	}
-	*/
+	
 }
