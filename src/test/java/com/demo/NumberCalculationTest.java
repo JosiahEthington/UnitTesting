@@ -26,5 +26,9 @@ public class NumberCalculationTest {
 	public void testCase4() {
 		assertEquals(nc.add(-5, -5), -10);
 	}
+	@Test
+	public void testCase5() {
+		assertEquals(nc.convertCase("LOWERCASEWITHSYMBOLS %^"), "lowercasewithsymbols %^");
+	}
 	
 }
